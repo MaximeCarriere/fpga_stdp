@@ -1,0 +1,27 @@
+# Vivado logs and journals
+*.log
+*.jou
+*.backup.log
+*.backup.jou
+
+# Vivado project build artifacts (keep .xpr for project definition)
+vivado_stdp/.Xil/
+vivado_stdp/stdp_system.cache/
+vivado_stdp/stdp_system.gen/
+vivado_stdp/stdp_system.hw/
+vivado_stdp/stdp_system.ip_user_files/
+vivado_stdp/stdp_system.runs/
+vivado_stdp/stdp_system.sim/
+vivado_stdp/stdp_system.srcs/
+
+# Vitis HLS build artifacts (entire synthesis output directory)
+stdp_hls/solution1/impl/
+stdp_hls/solution1/sim/
+stdp_hls/solution1/syn/
+stdp_hls/.autopilot/
+stdp_hls/solution1/.autopilot/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
