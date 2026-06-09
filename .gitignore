@@ -25,3 +25,6 @@ stdp_hls/solution1/.autopilot/
 __pycache__/
 *.pyc
 *.pyo
+
+# NEST / simulation outputs (not tracked — regenerate with scripts/stdp_two_populations.py)
+# data/*.npy files ARE tracked intentionally (pre-computed validation data)
